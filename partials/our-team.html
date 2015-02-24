@@ -11,7 +11,7 @@
                 ng-class="{'text-right': $odd}">
                 <img
                     class="col-md-4 col-xs-4 col-sm-2 img-responsive"
-                    src="http://www.thefunnyblog.org/wp-content/uploads/2012/10/funny-animal-face-dog-friday-face.jpg"
+                    ng-src="{{p.photoUrl || defaultImageSource}}"
                     ng-class="{'pull-left': $even, 'pull-right': $odd}"
                 >
                 <div class="col-md-8 col-xs-8 col-sm-10">

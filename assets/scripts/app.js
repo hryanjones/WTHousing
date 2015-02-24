@@ -26,12 +26,14 @@ angular.module('app', ['ngRoute'])
         'tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,' +
         'quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo' +
         'proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+    $scope.defaultImageSource = 'http://www.thefunnyblog.org/wp-content/uploads/2012/10/funny-animal-face-dog-friday-face.jpg';
     $scope.peeps = [
         {
             name: 'Ryan',
             title: 'Web Development Engineer',
             employer: 'Amazon',
-            description: lorem
+            description: 'A self-taught programmer, Ryan currently enjoys building internal websites for Amazon using NodeJS and Angular. Additionally he\'s interested in Linux, hiking, what the future of programming might look like, as well as board games, and puzzling.',
+            photoUrl: './assets/images/people/ryan.jpg'
         },
         {
             name: 'Michelle',
