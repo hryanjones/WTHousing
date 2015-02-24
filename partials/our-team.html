@@ -1,0 +1,24 @@
+    <div class="homepage-image-container">
+        <img class="our-team-image img-responsive" src="./assets/images/wth_ourteam_bg-cropped.png">
+    </div>
+
+    <h3 class="col-xs-12">OUR TEAM</h3>
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div ng-repeat="p in peeps" class="col-md-6 clearfix person"
+                ng-class="{'text-right': $odd}">
+                <img
+                    class="col-md-4 col-xs-4 col-sm-2 img-responsive"
+                    src="http://www.thefunnyblog.org/wp-content/uploads/2012/10/funny-animal-face-dog-friday-face.jpg"
+                    ng-class="{'pull-left': $even, 'pull-right': $odd}"
+                >
+                <div class="col-md-8 col-xs-8 col-sm-10">
+                    <strong>{{p.name|uppercase}}</strong><span ng-show="p.title">, {{p.title}}</span><span ng-show="p.employer">, {{p.employer}}</span>
+                    <p class="description">{{p.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+

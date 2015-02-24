@@ -2,11 +2,37 @@
 <html>
 <head>
     <title>WT Housing</title>
-    <link rel="stylesheet" type="text/css" href="./assets/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="./assets/bootstrap/dist/css/bootstrap-theme.css">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/favicon.ico">
+    <meta name="google-site-verification" content="geRrLSvJpfyVnvAcRSSSCYntOBVwsdrNYq7ZjplTVA8" />
+    <link rel="stylesheet" type="text/css" href="./assets/styles/theme.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular-route.min.js"></script>
+    <script src="./assets/scripts/app.js"></script>
 </head>
-<body class="well">
-<h3>Coming soon...</h3>
+<body ng-app="app">
 
+    <div class="header">
+        <a
+            class="h1 col-xs-offset-1 col-xs-7 col-sm-offset-2 col-sm-5"
+            href="/#/home/"
+            >
+            <strong class="brand-color">WT</strong>Housing
+        </a>
+        <ul class="list-inline col-xs-4">
+            <li><a href="/#/our-team/">OUR TEAM</a></li>
+            <li><a href="/#/contact/">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div ng-view></div>
+
+    <img class="contact-image img-responsive hide" src="./assets/images/wth_contact_bg.jpg">
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">&#169;2015 WT Housing LLC</p>
+        </div>
+    </footer>
 </body>
 </html>
