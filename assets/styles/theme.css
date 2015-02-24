@@ -52,6 +52,12 @@
         .person img {
           max-width: 150px;
         }
+        .clear-left {
+          clear: left;
+        }
+        .clear-right {
+          clear: right;
+        }
 
                 /* Sticky footer styles (stolen from http://getbootstrap.com/examples/sticky-footer/)
         -------------------------------------------------- */
