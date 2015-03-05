@@ -17,46 +17,52 @@ angular.module('app', ['ngRoute'])
         redirectTo: '/home'
     });
 }])
-// .controller('Home', ['$scope', function($scope) {
 
-// }])
 .controller('OurTeam', ['$scope', function($scope) {
 
-    var lorem = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod' +
-        'tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,' +
-        'quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo' +
-        'proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
     $scope.defaultImageSource = 'http://www.thefunnyblog.org/wp-content/uploads/2012/10/funny-animal-face-dog-friday-face.jpg';
+    $scope.peepsBaseImgURL = './assets/images/people/'
     $scope.peeps = [
+        {
+            name: 'Alexander',
+            description: 'Alexander was born and raised in Chicago, Il. He holds an undergraduate degree from Tulane University. For the last fifteen years he has worked as an analyst for a privately held manufacturing company, as well as sitting on the boards of directors for a few small enterprises. He lives with his wife Emily and son in their home on the north side of Seattle. In his leisure time Alexander is a game enthusiast, writer, foodie, and world traveler.'
+
+        },
+        {
+            name: 'Allison',
+            description: 'Allison is an environmental scientist by training, with a Masters degree from WSU, and an economic modeler by day, working for a local utility. She has also taught science in a middle school and researched African streams. She enjoys the outdoors, cooking, and traveling, both to US national parks and abroad. She lives in Seattle with her husband Aaron.',
+            employer: 'Puget Sound Energy',
+            title: 'Load Forecasting Analyst'
+        },
+        {
+            name: 'Amy',
+            title: 'Marine Ecologist',
+            employer: 'Tulalip Tribes',
+            description: 'Amy is a marine ecologist with a masters degree in marine resource management from Simon Fraser University. She works in the natural resources department of Tulalip Tribes, as well as continues to consult with First Nations throughout British Columbia. She enjoys spending time on or near the ocean, hiking and being outdoors, natural history, cooking, knitting, and traveling. She lives in Seattle with her partner Arya.'
+        },
+        {
+            name: 'Deirdre',
+            title: 'Physician Relations Manager',
+            employer: 'UW Medicine',
+            description: 'Deirdre is a Physician Relations Manager for a fast growing network of primary care clinics in the Puget Sound area. She got her degree in Sociology from Antioch University, and previously spent many years as an artist manager. She and her husband, Raven, are the parents of a fast-growing toddler named Sylvan.',
+            photoUrl: 'deirdre.jpg'
+        },
+        {
+            name: 'James',
+            description: 'James is the Executive Editor of a prominent game publishing company, and a co-creator of the current best-selling tabletop roleplaying game in the world. An award-winning game designer and novelist, he\'s also a musician who\'s performed extensively with various rock bands, and served for several years on the board of directors for a nonprofit devoted to youth empowerment. He lives in Seattle with his wife, Margo.',
+            photoUrl: 'james.jpg'
+        },
         {
             name: 'Ryan',
             title: 'Web Development Engineer',
             employer: 'Amazon',
             description: 'A self-taught programmer, Ryan currently enjoys building internal websites for Amazon using NodeJS and Angular. Additionally he\'s interested in Linux, hiking, what the future of programming might look like, as well as board games, and puzzling.',
-            photoUrl: './assets/images/people/ryan.jpg'
-        },
-        {
-            name: 'Michelle',
-            title: 'Title',
-            employer: 'Seattle Shakespeare Company',
-            description: lorem
-        },
-        {
-            name: 'Brian',
-            title: 'Consultant of awesome',
-            employer: 'Awesome Consultants',
-            description: lorem
-        },
-        {
-            name: 'Alicia',
-            title: 'COO',
-            employer: 'US Quidditch',
-            description: lorem
+            photoUrl: 'ryan.jpg'
         },
     ];
 
 
 }])
 .controller('Contact', ['$scope', function($scope) {
-
-}])
+    // stub
+}]);

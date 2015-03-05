@@ -13,11 +13,22 @@
                 >
                 <img
                     class="col-md-4 col-xs-4 col-sm-2 img-responsive"
-                    ng-src="{{p.photoUrl || defaultImageSource}}"
+                    ng-src="{{
+                        p.photoUrl ?
+                        peepsBaseImgURL + p.photoUrl :
+                        defaultImageSource;
+                    }}"
                     ng-class="{'pull-left': $even, 'pull-right': $odd}"
                 >
                 <div class="col-md-8 col-xs-8 col-sm-10">
-                    <strong>{{p.name|uppercase}}</strong><span ng-show="p.title">, {{p.title}}</span><span ng-show="p.employer">, {{p.employer}}</span>
+                    <h4 class="name">
+                        {{p.name|uppercase}}
+                        <small ng-show="p.title || p.employer">
+                            <br/>
+                            <span ng-show="p.title">{{p.title}}</span><span ng-show="p.title && p.employer">,</span>
+                            <span ng-show="p.employer">{{p.employer}}</span>
+                        </small>
+                    </h4>
                     <p class="description">{{p.description}}</p>
                 </div>
             </div>
