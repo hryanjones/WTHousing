@@ -53,6 +53,13 @@ angular.module('app', ['ngRoute'])
             photoUrl: 'james.jpg'
         },
         {
+            name: 'Michelle',
+            title: 'Education Director',
+            employer: 'Seattle Shakespeare Company',
+            description: 'Michelle is the Director of Education at a local Shakespeare theater company, running youth programs and teaching in-school residencies. She holds a BA from the University of Washington and a Masters in Education from Antioch University. In her free time, Michelle enjoys cooking, hiking, and spending time with her partner Jared and her dog Zefram.',
+            photoUrl: 'michelle.jpg'
+        },
+        {
             name: 'Ryan',
             title: 'Web Development Engineer',
             employer: 'Amazon',
