@@ -32,7 +32,8 @@ angular.module('app', ['ngRoute'])
             name: 'Allison',
             description: 'Allison is an environmental scientist by training, with a Masters degree from WSU, and an economic modeler by day, working for a local utility. She has also taught science in a middle school and researched African streams. She enjoys the outdoors, cooking, and traveling, both to US national parks and abroad. She lives in Seattle with her husband Aaron.',
             employer: 'Puget Sound Energy',
-            title: 'Load Forecasting Analyst'
+            title: 'Load Forecasting Analyst',
+            photoUrl: 'allison.jpg'
         },
         {
             name: 'Amy',
