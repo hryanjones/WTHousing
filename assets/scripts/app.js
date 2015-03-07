@@ -24,6 +24,13 @@ angular.module('app', ['ngRoute'])
     $scope.peepsBaseImgURL = './assets/images/people/'
     $scope.peeps = [
         {
+            name: 'Aaron',
+            title: 'Research Scientist',
+            employer: 'Stratos Genomics',
+            description: 'Aaron is a PhD chemist (Johns Hopkins, 2010) who specializes in the development of synthetic DNA.  His professional interests include next generation DNA sequencing and the future of biotechnology.  He also enjoys cooking, hiking, data visualization and traveling with his wife Allison.',
+            photoUrl: 'aaron.jpg'
+        },
+        {
             name: 'Alexander',
             description: 'Alexander was born and raised in Chicago, Il. He holds an undergraduate degree from Tulane University. For the last fifteen years he has worked as an analyst for a privately held manufacturing company, as well as sitting on the boards of directors for a few small enterprises. He lives with his wife Emily and son in their home on the north side of Seattle. In his leisure time Alexander is a game enthusiast, writer, foodie, and world traveler.'
 
