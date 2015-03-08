@@ -56,6 +56,14 @@ angular.module('app', ['ngRoute'])
             photoUrl: 'deirdre.jpg'
         },
         {
+            name: 'Elise',
+            title: 'Owner',
+            employer: 'Koncsek Photography and Design',
+            description: 'Elise is a professional photographer and public artist with a background in anthropology and ecology. She holds a degree from the University of Washington and certification from the National Sustainable Building Advisor Program. Her interests include education, low-impact living, and environmental restoration.',
+            photoUrl: 'elise.jpg'
+
+        },
+        {
             name: 'James',
             description: 'James is the Executive Editor of a prominent game publishing company, and a co-creator of the current best-selling tabletop roleplaying game in the world. An award-winning game designer and novelist, he\'s also a musician who\'s performed extensively with various rock bands, and served for several years on the board of directors for a nonprofit devoted to youth empowerment. He lives in Seattle with his wife, Margo.',
             photoUrl: 'james.jpg'
