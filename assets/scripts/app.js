@@ -71,7 +71,8 @@ angular.module('app', ['ngRoute'])
         {
             name: 'Malvika',
             title: 'Software Developer',
-            description: 'Malvika is a software developer in one of the world\'s largest technology companies based in Seattle. In her spare time she enjoys trying new things, exploring the outdoors, photography, and crafts.'
+            description: 'Malvika is a software developer in one of the world\'s largest technology companies based in Seattle. In her spare time she enjoys trying new things, exploring the outdoors, Photography, and crafts.',
+            photoUrl: 'malvika.jpg'
         },
         {
             name: 'Michelle',
