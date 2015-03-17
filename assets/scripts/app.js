@@ -69,9 +69,13 @@ angular.module('app', ['ngRoute'])
             photoUrl: 'james.jpg'
         },
         {
+            name: 'Lindsay',
+            description: 'Lindsay is an administrative professional with ten years of experience in non-profits. She holds a degree in anthropology and is fascinated by cultures and pre-history. In her spare time, she volunteers as a grant writer for a literacy organization, and loves reading, exploring the coast, and traveling with her partner Andy.'
+        },
+        {
             name: 'Malvika',
             title: 'Software Developer',
-            description: 'Malvika is a software developer in one of the world\'s largest technology companies based in Seattle. In her spare time she enjoys trying new things, exploring the outdoors, Photography, and crafts.',
+            description: 'Malvika is a software developer in one of the world\'s largest technology companies based in Seattle. In her spare time she enjoys trying new things, exploring the outdoors, photography, and crafts.',
             photoUrl: 'malvika.jpg'
         },
         {
