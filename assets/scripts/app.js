@@ -46,7 +46,8 @@ angular.module('app', ['ngRoute'])
             name: 'Amy',
             title: 'Marine Ecologist',
             employer: 'Tulalip Tribes',
-            description: 'Amy is a marine ecologist with a masters degree in marine resource management from Simon Fraser University. She works in the natural resources department of Tulalip Tribes, as well as continues to consult with First Nations throughout British Columbia. She enjoys spending time on or near the ocean, hiking and being outdoors, natural history, cooking, knitting, and traveling. She lives in Seattle with her partner Arya.'
+            description: 'Amy is a marine ecologist with a masters degree in marine resource management from Simon Fraser University. She works in the natural resources department of Tulalip Tribes, as well as continues to consult with First Nations throughout British Columbia. She enjoys spending time on or near the ocean, hiking, being outdoors, natural history, cooking, knitting, and traveling.',
+            photoUrl: 'amy.jpg'
         },
         {
             name: 'Deirdre',
